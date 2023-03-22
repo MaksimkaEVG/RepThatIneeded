@@ -1,1 +1,66 @@
 
+&lt;?xml version="1.0" encoding="utf-8"?>
+&lt;LinearLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical" 
+   android:layout_width="match_parent" 
+   android:layout_height="match_parent">
+  
+   &lt;TextView 
+      android:id="@+id/menu" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Меню" 
+      android:textSize="20sp" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox1" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Салат из свежих овощей - 250 рублей" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox2" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Ризотто с грибами - 400 рублей" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox3" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Жареные креветки с овощами - 650 рублей" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox4" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Рулет из курицы с овощами и грибами - 550 рублей" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox5" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Паста с лососем и шпинатом - 600 рублей" />
+  
+   &lt;CheckBox 
+      android:id="@+id/checkBox6" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="Говядина на гриле с картофелем и соусом из розмарина - 700 рублей" />
+  
+   &lt;TextView 
+      android:id="@+id/total" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Итог: 0 рублей" 
+      android:textSize="20sp" />
+  
+   &lt;Button 
+      android:id="@+id/calculate" 
+      android:layout_width="match_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Рассчитать" />
+  
+ &lt;/LinearLayout>
+
